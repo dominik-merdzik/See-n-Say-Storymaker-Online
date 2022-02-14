@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+/* font from google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+*, *::before, *::after{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-main{
+    width: 100%;
+}
+
+body{
+    margin: auto;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(13, 178, 243);
+    opacity: 75%;
+    width:auto;
+    height: auto;
+    padding:10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+.header-main h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 254, 217), rgb(218, 218, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    background-color:#FAEC2B;
+    padding:20px;
+}
+
+.image-div{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    background-image: url(../images/word-page2.png);
+}
+
+.image-div h1{
+    box-shadow: 5px 10px;
+    border: 1px solid;
+   font-size: 45px;
+   background: linear-gradient(to bottom right, #7f2deb , #ffd013);
+   padding:10px;
+   text-align:left;
+}
+
+ion-icon {
+    font-size: 45px;
+  }
+
+
+.rounded-button-1,.rounded-button-2,.rounded-button-3,.rounded-button-4,.rounded-button-5,.rounded-button-01,.rounded-button-02,.rounded-button-03{
+    width:60px;
+    height:60px;
+    color:#fff;
+    border-radius: 97px;
+    border:none;
+}
+.rounded-button-1{
+    background:#C423FA;
+}.rounded-button-2{
+    background:#3EFAF8;
+}.rounded-button-3{
+    background:#2EFA61;
+}.rounded-button-4{
+    background:#F0A42B;
+}.rounded-button-5{
+    background:#FA00D6;
+}
+.rounded-button-01{
+    background:#73DDFA;
+}.rounded-button-02{
+    background:#FA419A;
+}.rounded-button-03{
+    background:#7A375C;
+}
+
+.btn-div{
+    display:grid;
+    align-items:center;
+    height:315px;
+    width:auto;
+}
+.speach-text{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.btn-div h3{
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+.btn-div form{
+    grid-column-gap: 0;
+    padding-bottom: 100px;
+}
+
+.footer{
+    width:auto;
+    height:auto;
+    padding:10px;
+    background-color:#757875;
+}
+.footer p {
+    color:#fff;
+}
